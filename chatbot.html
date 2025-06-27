@@ -1,0 +1,22 @@
+<!-- Shankh Technologies Chatbot Widget -->
+<link rel="stylesheet" href="chatbot.css">
+
+<button id="chatbot-button">💬</button>
+
+<div id="chatbot-window">
+  <div id="chatbot-header">ShankhTech Assistant</div>
+  <div id="chatbot-messages">
+    <div class="bot-message">👋 Hi there! How can I assist you today?</div>
+    <div class="quick-option" onclick="selectOption(1)">What services do you offer?</div>
+    <div class="quick-option" onclick="selectOption(2)">Do you build e-commerce websites?</div>
+    <div class="quick-option" onclick="selectOption(3)">Do you provide AI or Chatbot solutions?</div>
+    <div class="quick-option" onclick="selectOption(4)">Do you provide custom software development?</div>
+    <div class="quick-option" onclick="selectOption(5)">How can I contact you?</div>
+  </div>
+  <div id="chatbot-input-area">
+    <input id="chatbot-input" placeholder="Type your message..." />
+    <button id="chatbot-send">Send</button>
+  </div>
+</div>
+
+<script src="chatbot.js"></script>
