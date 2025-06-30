@@ -52,12 +52,6 @@ Welcome to the **AI ChatBot** project — a smart, responsive, and easy-to-integ
 
 ---
 
-## 🎨 Screenshots
-
-> *Add screenshots or demo GIFs here to showcase your chatbot in action.*
-
----
-
 ## 💡 How to Use
 
 1. Customize the chatbot UI to match your website.
